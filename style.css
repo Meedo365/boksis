@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color1 {
+    color: #fe8f1c;
+}
+
+.color2 {
+    color: #121121;
+}
+
+
+.carousel-cell {
+    width: 100%;
+    height: 270px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.mode1 h1 {
+    color: #121121;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.set {
+    border-bottom: 3px solid #f7f7f7;
+}
+
+.type {
+    border: 1px solid #fe911c3d;
+    border-radius: 10px;
+
+}
+
+.slide img {
+    border-radius: 10px 10px 0 0;
+}
+
+.slidetxt {
+    padding: 10px;
+}
+
+.your {
+    background-image: url(./img/not-found-pattern.b0d369d.svg);
+    background-color: #fe8f1c;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 20px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.your button {
+    background-color: #121121;
+    color: #fe8f1c;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+
+}
+
+.slidetxt .bed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.slidetxt .bed ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.slidetxt .bed ul li {
+    margin: 0px 10px;
+}
+
+.slidetxt .bill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.slidetxt .bill .pan {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fe8f1c;
+    padding: 5px 15px;
+    width: 80%;
+    border-radius: 0.5rem;
+}
+
+.search span {
+    font-weight: bolder;
+    margin-right: 10px;
+    color: #fe8f1c;
+}
+
+.search input {
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+.mode1 ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mode1 li {
+    border: 2px solid #121121;
+    list-style: none;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+.mode1 li:hover {
+    border: 2px solid #fe8f1c;
+    transition: 0.5s;
+    color: #fe8f1c;
+}
+
+
+/* Become */
+.host,
+.listing {
+    position: relative;
+}
+
+.host h1 {
+    color: #121121;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 55px;
+}
+
+.host button {
+    background-color: #fe8f1c;
+    color: #121121;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 0.5rem;
+}
+
+.host .prop {
+    margin-top: 100px;
+    background-image: url(./img/review-avatar.14568b6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 8%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+.listing p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.listing h5 {
+    color: #fe8f1c;
+    margin: 0px;
+}
+
+.hero {
+    background-image: url(./img/host-hero.ebf4ae7.jpg);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first {
+    background-color: #fe911c6c;
+}
+
+.why span {
+    color: #fe8f1c;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.why h1 {
+    color: #121121;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+.why p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.from p {
+    font-size: 20px;
+    color: #121121;
+}
+
+.from p b {
+    font-size: 20px;
+    color: #fe8f1c;
+}
+
+.earn {
+    position: relative;
+}
+
+.earn .earn1 {
+    background-image: url(./img/whySpleet-bg-pattern.b7eb84c.png);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    height: 450px;
+    background-position: center;
+    background-color: #fe911c6c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.earn .earn2 {
+    background-image: url(./img/how-works.d56bf08.png);
+    border-radius: 10px;
+    width: 100%;
+    z-index: 1;
+    top: -30px;
+    left: -35px;
+    height: 450px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three .line {
+    display: flex;
+    align-items: center;
+    color: #fe8f1c;
+}
+
+.three .line span {
+    border-bottom: 1px solid #fe8f1c;
+    height: 1px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.three .line1 {
+    background-color: #fe8f1c;
+    color: white;
+    border-radius: 10px;
+}
+
+.three .line1 h2 {
+    margin: 20px 0px;
+    color: black;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.sectionn {
+    background-image: url(./img/review-bg-pattern.a888e8c.png);
+    background-color: #fe911c6c;
+}
+
+.home p {
+    font-size: 20px;
+}
+
+.home h4 {
+    color: #fe8f1c;
+}
+
+.flik h1 {
+    font-weight: bold;
+    font-family: cursive;
+    color: #121121;
+}
+
+.flik .carousel-cell {
+    width: 100%;
+    height: 600px !important;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.flik img {
+    width: 8%;
+    height: 90px;
+    margin: 20px 0px;
+    border-radius: 50%;
+}
+
+.earns {
+    position: relative;
+}
+
+.earns .earn11 {
+    background-image: url(./img/whySpleet-bg-pattern.b7eb84c.png);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    height: 450px;
+    background-position: center;
+    background-color: #fe911c6c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.earns .earn22 {
+    background-image: url(./img/host-action.ea3e369.jpg);
+    border-radius: 10px;
+    width: 100%;
+    z-index: 1;
+    top: -30px;
+    left: -35px;
+    height: 450px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.why button {
+    background-color: #fe8f1c;
+    color: #121121;
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 0.5rem;
+
+}
+
+.why button:hover {
+    background-color: #c16605;
+    transition: 0.5s;
+}

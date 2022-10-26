@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.flex1 h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mynav img {
+    width: 140px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#navbarSS {
+    justify-content: right;
+    font-size: 1.7rem;
+}
+
+#navbarSS a {
+    text-transform: capitalize;
+    color: #fe8f1c;
+    text-decoration: none;
+    margin: 0px 30px;
+    font-weight: 650;
+}
+
+#navbarSS a:hover {
+    color: #121121;
+}
+
+#navbarSS button {
+    border: none;
+    outline: none;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #fe8f1c;
+}
+
+#navbarSS button a {
+    color: black;
+}
+
+#navbarSS button a:hover {
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    color: #121121;
+    width: 70%;
+    font-size: 3.5rem;
+    font-weight: 750;
+}
+
+.banner section {
+    border: 3px solid silver;
+    /* justify-content: space-between; */
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    width: 95%;
+}
+
+.banner section h6 {
+    color: #121121;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner input,
+.banner button {
+    border: none;
+    outline: none;
+}
+
+.banner button {
+    color: white;
+    text-transform: uppercase;
+    background-color: #121121;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 20px 50px;
+}
+
+.banner section input {
+    padding: 15px;
+    width: 470px;
+    margin-right: 30px;
+}
+
+.banner h3 {
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #fe8f1c;
+}
+
+.banner-bg {
+    background-image: url(../images/bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 150% 35rem;
+    width: 110%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: -50px;
+    margin-top: 100px;
+}
+
+.banner-bg1 {
+    width: 40%;
+    height: 35rem;
+}
+
+.banner2 {
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+
+.banner2 h4 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 650;
+    /* height: 20px; */
+    color: #fe8f1c;
+    margin-bottom: 20px;
+}
+
+.banner2 h1 {
+    font-size: 3rem;
+    font-weight: 650;
+    margin-bottom: 60px;
+}
+
+.banner2 p {
+    font-size: 1.6rem;
+    font-weight: 650;
+}
+
+.icon-section div,
+.icon-section2 div {
+    width: 250px;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.icon-section img {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.icon-section2 img {
+    width: 80px;
+    height: 60px;
+    /* border-radius: 50%; */
+    padding: 5px;
+}
+
+.icon-section p {
+    font-size: 1.4rem;
+    margin-top: 40px;
+}
+
+.icon-section h4 {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.icon-section2 h4 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.icon-section {
+    margin-bottom: 50px;
+}
+
+.all-bills {
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+
+.space-body {
+    padding-top: 30px;
+}
+
+.space-body p,
+.space-body h6,
+.space-body h5 {
+    text-transform: uppercase;
+}
+
+.space-body h6 {
+    padding-right: 50px;
+}
+
+.space-body li {
+    list-style: none;
+    padding: 0px 20px;
+    text-transform: capitalize;
+}
+
+.space-body ul {
+    padding-bottom: 20px;
+}
+
+.space-body span {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.amenities {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid silver;
+    padding: 30px 0px;
+}
+
+.amenities li {
+    text-transform: capitalize;
+    list-style: none;
+    padding: 10px;
+}
+
+.amenities p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner3 {
+    padding: 80px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner3-1 {
+    width: 70%;
+}
+
+.banner3-2 {
+    width: 30%;
+}
+
+.banner3-2 img {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.banner3-1 h6 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #fe8f1c;
+    width: fit-content;
+}
+
+.banner3-1 h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.banner3-1 p {
+    font-size: 1.7rem;
+    width: 90%;
+    font-weight: 400;
+    color: grey;
+}
+
+.number-cards {
+    background-color: #fe8f1c;
+    padding: 40px;
+    box-shadow: -10px -10px 10px -10px #fe8f1c;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.number-cards h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.number-cards p {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.experiences {
+    height: 80vh;
+    text-align: center;
+    padding: 70px 230px;
+}
+
+.experiences h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.experiences p {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.experiences img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+}
+
+.line span {
+    border-bottom: 1px solid #fe8f1c;
+    height: 1px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.line {
+    color: #fe8f1c;
+    display: flex;
+    align-items: center;
+    color: #fe8f1c;
+    margin-bottom: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #fe8f1c;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    /* background-color: #121121; */
+    padding-top: 150px;
+}
+
+.carousel-indicators button {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    padding: 70px 0px;
+    color: #121121;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+footer h5 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+footer li {
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+footer li:hover {
+    color: #121121;
+}
+
+footer p::first-letter {
+    text-transform: uppercase;
+}
+
+.login img {
+    width: 140px;
+    height: 80px;
+    margin: 15px 0px;
+    border-radius: 50%;
+}
+
+.login {
+    text-align: center;
+}
+
+.login-form {
+    margin: 50px 0px;
+}
+
+.login-form h3 {
+    text-transform: capitalize;
+    font-size: 1.9rem;
+}
+
+.login-form p {
+    font-size: 1.2rem;
+}
+
+.login-form form {
+    width: 400px;
+    border: 3px solid #121121;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.login-form button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.login-form input {
+    outline: none;
+    border: 1px solid #fe8f1c;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 60px;
+    padding: 10px 20px;
+}
+
+.login-form form p {
+    text-align: left;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.login-form form p:hover {
+    color: #fe8f1c;
+    background-color: #121121;
+    width: fit-content;
+}
+
+.login-form section {
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-form section a {
+    color: #fe8f1c;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#radio-member {
+    outline: none;
+    border: 1px solid gray;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height: 60px;
+    padding: 0px 20px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#radio-member input {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.space-img img {
+    border-radius: 15px;
+}
+
+.space-body form {
+    border: 3px solid #fe8f1c;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.space-body form p {
+    font-weight: 600;
+}
+
+.space-body form select {
+    width: 100%;
+    background-color: whitesmoke;
+    color: #121121;
+    text-transform: capitalize;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.space-body form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-top: 20px 0px;
+    border-radius: 50px;
+    background-color: #fe8f1c;
+    color: #121121;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.space-body form button:hover {
+    background-color: #121121;
+    color: white;
+}
+
+@media(max-width:425px) {
+    .banner {
+        width: 80%;
+    }
+
+    .banner section h6 {
+        display: none;
+    }
+
+    .banner section input {
+        padding: 0px;
+    }
+
+    .banner section {
+        width: 120%;
+        height: 50px;
+    }
+
+    .banner button {
+        padding: 1% 3%;
+    }
+
+    .banner h3 {
+        font-size: 18px;
+    }
+
+    .banner-bg1 {
+        display: none;
+    }
+
+    .banner section input {
+        width: 230px;
+    }
+
+    .banner h1 {
+        width: 90%;
+        font-size: 2.5rem;
+    }
+
+    .banner3-2 img {
+        display: none;
+    }
+
+    .banner3-1 {
+        width: 100%;
+    }
+
+    .experiences {
+        height: fit-content;
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .banner2 {
+        margin-top: 0px;
+        padding: 20px 0px;
+    }
+
+    .banner2 h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .banner2 h1 {
+        font-size: 2rem;
+        font-weight: 650;
+        margin-bottom: 20px;
+    }
+
+    .banner2 p {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}
